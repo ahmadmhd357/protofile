@@ -17,7 +17,7 @@ function sidebar() {
     return (
     <div>
       <img
-        src="https://images.unsplash.com/photo-1511367461989-f85a21fda167?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YWJzdHJhY3QlMjBwcm9maWxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+        src="/images/profile.jpg"
         alt="profile-img"
         className="w-32 h-32 mx-auto rounded-full"
       />
@@ -25,26 +25,26 @@ function sidebar() {
         {" "}
         <span className="text-green">AHMAD</span> AL-HARIRI
       </h1>
-      <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-stone-600">
+      <p className="px-2 py-1 font-semibold my-3 bg-gray-200 rounded-full dark:bg-stone-600">
         FrontEnd Developer
       </p>
       <a
         href="#"
         download="name"
-        className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-stone-600"
+        className="flex items-center hover:scale-110 ease-in duration-500 justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-stone-600"
       >
-        <AiOutlineDownload className="w-6 h-6 mx-2 " /> Download Resume
+        <AiOutlineDownload className="w-6 h-6 mx-2" /> Download Resume
       </a>
       {/* //social icons */}
       <div className="flex justify-around w-9/12 mx-auto my-5 md:w-full text-green">
         <a href="#">
-          <AiFillFacebook className="w-8 h-8 cursor-pointer" />
+          <AiFillFacebook className="w-8 h-8 cursor-pointer hover:scale-110 ease-in duration-500" />
         </a>
         <a href="#">
-          <AiFillGithub className="w-8 h-8 cursor-pointer" />
+          <AiFillGithub className="w-8 h-8 cursor-pointer hover:scale-110 ease-in duration-500" />
         </a>
         <a href="#">
-          <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
+          <AiFillLinkedin className="w-8 h-8 cursor-pointer hover:scale-110 ease-in duration-500" />
         </a>
       </div>
       {/* address */}
@@ -59,10 +59,10 @@ function sidebar() {
         <p className="my-2">ahmadmhd357@gmail.com</p>
         <p className="my-2">+905050917462</p>
       </div>
-      <button onClick={()=>window.open('mailto:ahmadmhd357@gmail.com')} className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-400">
+      <button onClick={()=>window.open('mailto:ahmadmhd357@gmail.com')} className="w-8/12 hover:scale-110 ease-in duration-500 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-400">
         Email Me
       </button>
-      <button onClick={changeTheme} className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-400">
+      <button onClick={changeTheme} className="w-8/12 hover:scale-110 ease-in duration-500 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-400">
         Light UI
       </button>
     </div>

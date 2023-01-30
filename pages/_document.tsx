@@ -11,7 +11,7 @@ export default function Document() {
           rel="stylesheet"
         />
       </Head>
-      <body className="bg-gradient-to-r from-green to-blue-400 dark:from-stone-700 dark:to-stone-900 dark:text-white">
+      <body className="scrollbar-thin scrollbar-thumb-blue-700 scrollbar-track-green-300 dark:scrollbar-thumb-stone-500 dark:scrollbar-track-stone-300 scrollbar-thumb-rounded-full scrollbar-track-rounded-full bg-gradient-to-r from-green to-blue-400 dark:from-stone-700 dark:to-stone-900 dark:text-white">
         <Main />
         <NextScript />
       </body>
