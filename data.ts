@@ -15,39 +15,45 @@ import {
   SiFigma,
   SiMicrosoftoffice,
   SiAdobeillustrator,
-  SiPostman
+  SiPostman,
 } from "react-icons/si";
 import { ILevels, ISkills, Projects } from "./type";
 
 export const skills: ISkills[] = [
   {
     title: "React.Js",
-    about: "Experience building and maintaining React-based applications. Knowledge of React libraries and tools such as Redux, React Router, and Axios.",
+    about:
+      "Experience building and maintaining React-based applications. Knowledge of React libraries and tools such as Redux, React Router, and Axios.",
     Icon: GrReactjs,
   },
   {
     title: "Firebase",
-    about: "Experience with Firebase's Real-Time Database, Cloud Firestore, Cloud Functions, and other Firebase services. Implementing authentication, authorization, and security rules for Firebase",
+    about:
+      "Experience with Firebase's Real-Time Database, Cloud Firestore, Cloud Functions, and other Firebase services. Implementing authentication, authorization, and security rules for Firebase",
     Icon: SiFirebase,
   },
   {
     title: "TypeScript",
-    about: "Experience using TypeScript for building scalable and maintainable applications. Knowledge of TypeScript features like interfaces, type inference, generics, and decorators.",
+    about:
+      "Experience using TypeScript for building scalable and maintainable applications. Knowledge of TypeScript features like interfaces, type inference, generics, and decorators.",
     Icon: SiTypescript,
   },
   {
     title: "JavaScript ES6/ES5",
-    about: "Proficient in JavaScript, with experience in creating dynamic and interactive web applications. Strong understanding of fundamental concepts such as functions, variables, arrays, and objects. Familiar with popular libraries and frameworks",
+    about:
+      "Proficient in JavaScript, with experience in creating dynamic and interactive web applications. Strong understanding of fundamental concepts such as functions, variables, arrays, and objects. Familiar with popular libraries and frameworks",
     Icon: SiJavascript,
   },
   {
     title: "Html5",
-    about: "Demonstrated ability to create accessible and semantic HTML5 markup. Ability to implement cross-browser compatibility issues and troubleshoot HTML5 coding problems.",
+    about:
+      "Demonstrated ability to create accessible and semantic HTML5 markup. Ability to implement cross-browser compatibility issues and troubleshoot HTML5 coding problems.",
     Icon: SiHtml5,
   },
   {
     title: "CSS3",
-    about: "Proficient in CSS, with a strong understanding of its concepts and best practices. creating responsive web pages, and styling HTML elements. Comfortable with CSS pre-processors like SASS and LESS.",
+    about:
+      "Proficient in CSS, with a strong understanding of its concepts and best practices. creating responsive web pages, and styling HTML elements. Comfortable with CSS pre-processors like SASS and LESS.",
     Icon: SiCss3,
   },
 ];
@@ -81,5 +87,4 @@ export const projects: Projects[] = [
     github_url: "https://github.com/Recoded-Spark-Turkey-2022/The-Incredibles",
     stack: ["React.js", "Router/Redux/Redux-toolkit", "Firebase", "Tailwind"],
   },
-  
 ];

@@ -6,15 +6,14 @@ import {
   AiFillFacebook,
 } from "react-icons/ai";
 import { ImLocation } from "react-icons/im";
-import { useTheme } from 'next-themes'
+import { useTheme } from "next-themes";
 function sidebar() {
+  const { theme, setTheme } = useTheme();
 
-  const {theme,setTheme}= useTheme()
-
-  const changeTheme = ()=>{
-    setTheme(theme == 'light'?'dark':'light')
-  }
-    return (
+  const changeTheme = () => {
+    setTheme(theme == "light" ? "dark" : "light");
+  };
+  return (
     <div>
       <img
         src="/images/profile.jpg"
@@ -59,10 +58,16 @@ function sidebar() {
         <p className="my-2">ahmadmhd357@gmail.com</p>
         <p className="my-2">+905050917462</p>
       </div>
-      <button onClick={()=>window.open('mailto:ahmadmhd357@gmail.com')} className="w-8/12 hover:scale-110 ease-in duration-500 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-400">
+      <button
+        onClick={() => window.open("mailto:ahmadmhd357@gmail.com")}
+        className="w-8/12 hover:scale-110 ease-in duration-500 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-400"
+      >
         Email Me
       </button>
-      <button onClick={changeTheme} className="w-8/12 hover:scale-110 ease-in duration-500 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-400">
+      <button
+        onClick={changeTheme}
+        className="w-8/12 hover:scale-110 ease-in duration-500 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-400"
+      >
         Light UI
       </button>
     </div>

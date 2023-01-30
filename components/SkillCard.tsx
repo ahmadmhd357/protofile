@@ -11,7 +11,7 @@ const SkillCard: FunctionComponent<{ data: ISkills }> = ({
 
         <h3 className="font-bold">{title}</h3>
       </div>
-      <div className="text-center" >
+      <div className="text-center">
         <p>{about}</p>
       </div>
     </div>
