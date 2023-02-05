@@ -87,4 +87,13 @@ export const projects: Projects[] = [
     github_url: "https://github.com/Recoded-Spark-Turkey-2022/The-Incredibles",
     stack: ["React.js", "Router/Redux/Redux-toolkit", "Firebase", "Tailwind"],
   },
+  {
+    name: "Metversus",
+    description:
+      "The metaverse is a network of shared, immersive virtual worlds where people can connect with friends, create and play games, work and shop. You can think of the metaverse as a cyberspace, or an evolved, three-dimensional internet where logging in isn't necessary. It may also incorporate elements of virtual and augmented reality.",
+    image_path: "/images/metaversus.png",
+    deploy_url: "https://metaversus-gray.vercel.app/",
+    github_url: "https://github.com/ahmadmhd357/Metaversus",
+    stack: ["React.js", "Next.js 13", "Tailwind",'Framer motion'],
+  },
 ];
