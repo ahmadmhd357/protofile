@@ -12,7 +12,7 @@ const ProjectCard: FunctionComponent<{ data: Projects }> = ({
       <img
         src={image_path}
         alt={name}
-        className="cursor-pointer"
+        className="cursor-pointer w-full max-w-[200px]  h-[175px]"
         onClick={() => setShow(true)}
       />
       <p className="my-2 text-center">{name}</p>
