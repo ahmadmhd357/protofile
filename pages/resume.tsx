@@ -12,7 +12,7 @@ function resume() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <h1 className="my-3 text-2xl font-bold">Education</h1>
+          <h1 className="my-3 text-2xl font-bold">Last Education</h1>
           <div>
             <h1 className="flex flex-col my-2 text-xl font-medium">
               Frontend web development - Recoded{" "}
