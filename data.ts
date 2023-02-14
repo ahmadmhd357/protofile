@@ -96,4 +96,13 @@ export const projects: Projects[] = [
     github_url: "https://github.com/ahmadmhd357/Metaversus",
     stack: ["React.js", "Next.js 13", "Tailwind",'Framer motion'],
   },
+  {
+    name: "RoomeeChat",
+    description:
+      "Roomee Chat is an open source chatbot that connects to the open AI platform DialogFlow to answer any question. Roomee Chat was built with Next.js 13",
+    image_path: "/images/roomeechat.png",
+    deploy_url: "https://roomee-ai-chat.vercel.app/",
+    github_url: "https://github.com/ahmadmhd357/Roomee-AI-chat",
+    stack: ["Next.js 13", "NextAuth", "Firebase", "Tailwind", "openAI"],
+  },
 ];
