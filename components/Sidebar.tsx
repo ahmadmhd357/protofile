@@ -16,7 +16,7 @@ function sidebar() {
   return (
     <div>
       <img
-        src="/images/profile.jpg"
+        src="/images/photo.jpg"
         alt="profile-img"
         className="w-32 h-32 mx-auto rounded-full"
       />
