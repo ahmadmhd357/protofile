@@ -1,4 +1,4 @@
-import { GrReactjs } from "react-icons/gr";
+import { GrReactjs, GrNode } from "react-icons/gr";
 import {
   SiFirebase,
   SiTypescript,
@@ -45,10 +45,10 @@ export const skills: ISkills[] = [
     Icon: SiJavascript,
   },
   {
-    title: "Html5",
+    title: "Node.js",
     about:
-      "Demonstrated ability to create accessible and semantic HTML5 markup. Ability to implement cross-browser compatibility issues and troubleshoot HTML5 coding problems.",
-    Icon: SiHtml5,
+      "experience working with Node.js and its associated frameworks and libraries like Express, and can use them to build robust, scalable, and efficient server-side applications.",
+    Icon: GrNode,
   },
   {
     title: "CSS3",
@@ -67,7 +67,7 @@ export const languages: ILevels[] = [
   { name: "CSS3", level: "90%", Icon: SiCss3 },
   { name: "Tailwind", level: "80%", Icon: SiTailwindcss },
   { name: "BootStrap", level: "60%", Icon: SiBootstrap },
-  { name: "Html5", level: "90%", Icon: SiHtml5 },
+  { name: "Node.js", level: "70%", Icon: GrNode },
 ];
 export const tools: ILevels[] = [
   { name: "Git,Github", level: "80%", Icon: SiGit },
