@@ -28,7 +28,7 @@ function sidebar() {
         FrontEnd Developer
       </p>
       <a
-        href="/resume/ahmad-hariri.pdf"
+        href="/resume/ahmad-can-cv.pdf"
         download="ahmad-CV"
         className="flex items-center hover:scale-110 ease-in duration-500 justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-stone-600"
       >
