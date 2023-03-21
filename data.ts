@@ -16,6 +16,7 @@ import {
   SiMicrosoftoffice,
   SiAdobeillustrator,
   SiPostman,
+  SiExpress,
 } from "react-icons/si";
 import { ILevels, ISkills, Projects } from "./type";
 
@@ -60,6 +61,8 @@ export const skills: ISkills[] = [
 export const languages: ILevels[] = [
   { name: "JavaScript", level: "80%", Icon: SiJavascript },
   { name: "React", level: "80%", Icon: GrReactjs },
+  { name: "Node.js", level: "70%", Icon: GrNode },
+  { name: "Express.js", level: "70%", Icon: SiExpress },
   { name: "Redux,Router", level: "70%", Icon: SiRedux },
   { name: "Next.js", level: "70%", Icon: SiNextdotjs },
   { name: "TypeSript", level: "50%", Icon: SiTypescript },
@@ -67,7 +70,6 @@ export const languages: ILevels[] = [
   { name: "CSS3", level: "90%", Icon: SiCss3 },
   { name: "Tailwind", level: "80%", Icon: SiTailwindcss },
   { name: "BootStrap", level: "60%", Icon: SiBootstrap },
-  { name: "Node.js", level: "70%", Icon: GrNode },
 ];
 export const tools: ILevels[] = [
   { name: "Git,Github", level: "80%", Icon: SiGit },
@@ -78,6 +80,15 @@ export const tools: ILevels[] = [
   { name: "Postman", level: "60%", Icon: SiPostman },
 ];
 export const projects: Projects[] = [
+  {
+    name: "HealMe",
+    description:
+      "This website allows users to make an appointment with a therapist and conduct therapy sessions online. The user can register, log in, log out, delete his account update his data, buy tickets, and book appointments. Therapist can also register and log in as a consultant",
+    image_path: "/images/heal-me.png",
+    deploy_url: "https://heal-me-app.onrender.com/",
+    github_url: "https://github.com/ahmadmhd357/heal-me-client",
+    stack: ["React.js","Node.js","Express.js","MongoDB","Mongoose", "Router/Redux/Redux-toolkit", "Tailwind"],
+  },
   {
     name: "Refubook",
     description:
