@@ -27,10 +27,10 @@ export const skills: ISkills[] = [
     Icon: GrReactjs,
   },
   {
-    title: "Firebase",
+    title: "Node.js",
     about:
-      "Experience with Firebase's Real-Time Database, Cloud Firestore, Cloud Functions, and other Firebase services. Implementing authentication, authorization, and security rules for Firebase",
-    Icon: SiFirebase,
+      "experience working with Node.js and its associated frameworks and libraries like Express, and can use them to build robust, scalable, and efficient server-side applications.",
+    Icon: GrNode,
   },
   {
     title: "TypeScript",
@@ -45,17 +45,17 @@ export const skills: ISkills[] = [
     Icon: SiJavascript,
   },
   {
-    title: "Node.js",
-    about:
-      "experience working with Node.js and its associated frameworks and libraries like Express, and can use them to build robust, scalable, and efficient server-side applications.",
-    Icon: GrNode,
-  },
-  {
     title: "CSS3",
     about:
       "Proficient in CSS, with a strong understanding of its concepts and best practices. creating responsive web pages, and styling HTML elements. Comfortable with CSS pre-processors like SASS and LESS.",
     Icon: SiCss3,
   },
+  {
+    title: "Firebase",
+    about:
+      "Experience with Firebase's Real-Time Database, Cloud Firestore, Cloud Functions, and other Firebase services. Implementing authentication, authorization, and security rules for Firebase",
+    Icon: SiFirebase,
+  }
 ];
 export const languages: ILevels[] = [
   { name: "JavaScript", level: "80%", Icon: SiJavascript },
