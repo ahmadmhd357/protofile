@@ -21,14 +21,15 @@ function index() {
   return (
     <div className="flex flex-col  h-screen  overflow-x-hidden overflow-y-auto scrollbar-thin scrollbar-thumb-gray-200 scrollbar-track-gray-400-green-300 dark:scrollbar-thumb-stone-500 dark:scrollbar-track-stone-300 scrollbar-thumb-rounded-full scrollbar-track-rounded-full  p-4 pt-1 ">
       <h5 className="my-5 font-bold">
-        Front-end web developer who works as a machine that turns coffee into code. A hard worker with a
-        higher purpose. I have a great sense of perseverance and achievement. I am a dedicated person who
-        always tries to push through and gain both knowledge and experience in the field of web
-        development.
+        Front-End web developer who is passionate about
+        creating exceptional web experiences that make a real
+        difference in people's lives and always seeking to learn
+        new technologies and develop both my soft and tech
+        skills.
       </h5>
       <div className="px-4 mt-6 flex-grow bg-gray-400 dark:bg-stone-800 mx-[-1.25rem]">
         <h2 className="py-3 my-3 text-xl font-bold tracking-wide">
-          Part of the skills
+          Part of my skills
         </h2>
         <motion.div
           className="grid gap-6 pb-6 lg:grid-cols-2 "
