@@ -34,7 +34,7 @@ function resume() {
             </ol>
           </div>
           </motion.div>
-        {* <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 60 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
@@ -60,7 +60,7 @@ function resume() {
               </li>
             </ol>
           </div>
-        </motion.div> *}
+        </motion.div> */}
       </div>
       <div className="grid gap-6 md:grid-cols-2">
         <div>
