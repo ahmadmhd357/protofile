@@ -42,7 +42,7 @@ function sidebar() {
         <a href="https://github.com/ahmadmhd357">
           <AiFillGithub className="w-8 h-8 cursor-pointer hover:scale-110 ease-in duration-500" />
         </a>
-        <a href="www.linkedin.com/in/ahmadmhd357">
+        <a href="https://www.linkedin.com/in/ahmadmhd357">
           <AiFillLinkedin className="w-8 h-8 cursor-pointer hover:scale-110 ease-in duration-500" />
         </a>
       </div>
