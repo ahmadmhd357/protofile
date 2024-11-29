@@ -18,7 +18,7 @@ function sidebar() {
       <img
         src="/images/myphoto.jpg"
         alt="profile-img"
-        className="w-40 h-40 mx-auto rounded-xl "
+        className="w-40 h-40 mx-auto rounded-full "
       />
       <h1 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
         {" "}
